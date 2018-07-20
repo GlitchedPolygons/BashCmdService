@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Glitched Polygons</Authors>
+    <Company>Glitched PolygonsGlitched Polygons</Company>
+    <Product>GlitchedPolygons.Services.Bash</Product>
+    <PackageId>GlitchedPolygons.Services.Bash</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Bash command line service for ASP.NET Core apps running on Linux.</Description>
+    <PackageIconUrl>http://www.alessioligabue.it/sites/default/files/bash-icon_0.png</PackageIconUrl>
+    <PackageTags>bash shell cmd command line interface linux asp net core exec execute</PackageTags>
+    <PackageProjectUrl>https://github.com/GlitchedPolygons/bash_cmd_service</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GlitchedPolygons/bash_cmd_service</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
