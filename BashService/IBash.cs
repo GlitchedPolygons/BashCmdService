@@ -7,7 +7,7 @@ namespace GlitchedPolygons.Services.Bash
     /// <summary>
     /// Bash command line service interface for ASP.NET Core apps installed on Linux.
     /// </summary>
-    interface IBash
+    public interface IBash
     {
         /// <summary>
         /// Executes the passed bash command. Only works on ASP.NET Core apps installed on a Linux OS!!!
