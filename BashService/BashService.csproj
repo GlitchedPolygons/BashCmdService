@@ -12,6 +12,8 @@
     <PackageTags>bash shell cmd command line interface linux asp net core exec execute</PackageTags>
     <PackageProjectUrl>https://github.com/GlitchedPolygons/bash_cmd_service</PackageProjectUrl>
     <RepositoryUrl>https://github.com/GlitchedPolygons/bash_cmd_service</RepositoryUrl>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Fixed interface not being public.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
