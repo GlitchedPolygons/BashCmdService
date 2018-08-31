@@ -11,9 +11,17 @@
     <PackageIconUrl>http://www.alessioligabue.it/sites/default/files/bash-icon_0.png</PackageIconUrl>
     <PackageTags>bash shell cmd command line interface linux asp net core exec execute</PackageTags>
     <PackageProjectUrl>https://github.com/GlitchedPolygons/bash_cmd_service</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/GlitchedPolygons/bash_cmd_service</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <RepositoryUrl>https://github.com/GlitchedPolygons/BashCmdService</RepositoryUrl>
+    <Version>1.0.2</Version>
     <PackageReleaseNotes>Fixed interface not being public.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.1\BashService.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.1\BashService.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
