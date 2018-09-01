@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>GlitchedPolygons.Services.Bash</PackageId>
+    <Product>GlitchedPolygons.Services.Bash</Product>
+    <Authors>Glitched Polygons</Authors>
+    <Version>1.0.3</Version>
+    <Description>Bash command line service for ASP.NET Core apps running on Linux.</Description>
+    <PackageProjectUrl>https://github.com/GlitchedPolygons/BashCmdService</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GlitchedPolygons/BashCmdService</RepositoryUrl>
+    <PackageIconUrl>http://www.alessioligabue.it/sites/default/files/bash-icon_0.png</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Switched to netstandard2.0 type class library + improved xml docs.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\BashCmdService.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\BashCmdService.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
