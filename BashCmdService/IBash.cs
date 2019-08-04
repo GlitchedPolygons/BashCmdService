@@ -1,7 +1,7 @@
 ﻿namespace GlitchedPolygons.Services.Bash
 {
     /// <summary>
-    /// Bash command line service interface for apps installed & running on Linux.
+    /// Bash command line service interface for apps installed &amp; running on Linux.
     /// </summary>
     public interface IBash
     {

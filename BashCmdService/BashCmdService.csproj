@@ -1,25 +1,31 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>GlitchedPolygons.Services.Bash</PackageId>
     <Product>GlitchedPolygons.Services.Bash</Product>
     <Authors>Glitched Polygons</Authors>
-    <Version>1.0.3</Version>
-    <Description>Bash command line service for ASP.NET Core apps running on Linux.</Description>
+    <Version>1.0.5</Version>
+    <Description>Run bash commands from within C# code that is running on Linux.</Description>
     <PackageProjectUrl>https://github.com/GlitchedPolygons/BashCmdService</PackageProjectUrl>
     <RepositoryUrl>https://github.com/GlitchedPolygons/BashCmdService</RepositoryUrl>
     <PackageIconUrl>https://media.githubusercontent.com/media/GlitchedPolygons/NugetIcons/8fc395a8b2ae595a2816a690669490cf9a4764b9/bash.png</PackageIconUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>Switched to netstandard2.0 type class library + improved xml docs.</PackageReleaseNotes>
+    <AssemblyName>GlitchedPolygons.Services.Bash</AssemblyName>
+    <RootNamespace>GlitchedPolygons.Services.Bash</RootNamespace>
+    <PackageVersion>1.0.5</PackageVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Title>GlitchedPolygons.Services.Bash</Title>
+    <PackageTags>c# call linux bash from code</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\BashCmdService.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\GlitchedPolygons.Services.Bash.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\BashCmdService.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\GlitchedPolygons.Services.Bash.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
