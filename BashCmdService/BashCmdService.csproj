@@ -9,7 +9,7 @@
     <Description>Bash command line service for ASP.NET Core apps running on Linux.</Description>
     <PackageProjectUrl>https://github.com/GlitchedPolygons/BashCmdService</PackageProjectUrl>
     <RepositoryUrl>https://github.com/GlitchedPolygons/BashCmdService</RepositoryUrl>
-    <PackageIconUrl>http://www.alessioligabue.it/sites/default/files/bash-icon_0.png</PackageIconUrl>
+    <PackageIconUrl>https://media.githubusercontent.com/media/GlitchedPolygons/NugetIcons/8fc395a8b2ae595a2816a690669490cf9a4764b9/bash.png</PackageIconUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes>Switched to netstandard2.0 type class library + improved xml docs.</PackageReleaseNotes>
   </PropertyGroup>
