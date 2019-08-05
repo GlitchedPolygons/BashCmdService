@@ -4,4 +4,4 @@
 
 Includes a bash cmd service interface that can be injected into ASP.NET Core apps via Startup.cs DI
 
-Please **ONLY** use on Linux-run apps.
+Please **ONLY** use from code that will execute on Linux.
