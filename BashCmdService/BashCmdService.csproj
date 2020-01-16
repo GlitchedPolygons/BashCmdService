@@ -28,4 +28,11 @@
     <DocumentationFile>bin\Release\netstandard2.0\GlitchedPolygons.Services.Bash.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
 </Project>
